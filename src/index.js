@@ -1,6 +1,5 @@
 import React from 'react';
-import CardList from './CardList';
-import { robots } from './robots';
+import App from './App';
 import ReactDOM from 'react-dom';
 import './index.css';
 import * as serviceWorker from './serviceWorker';
@@ -8,7 +7,7 @@ import 'tachyons';
 
 ReactDOM.render(
 	<div>
-		<CardList robots = {robots} />
+		<App />
 	</div>
 	, document.getElementById('root'));
 
